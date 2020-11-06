@@ -24,6 +24,6 @@ mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
     },
     "password": "very_secret",
     "friends": ["ID1","ID2","..."],
-    "" 
+    "tags": ["tag1","tag2"] 
 }
 ```
