@@ -1,57 +1,59 @@
-[MyCalendApp](../README.md) > [Spécification](./specification.md) > [Global Specification](./global.md)
+[MyCalendApp](../README.md) > [Spécification](./specification.md) > [Spécification Globale](./global.md)
 
-# I - Global Specification
+# I - Spécification Globale
 
-## 1 - Origin of the need
+## 1 - Origine de besoin
 
-The MyCalendApp project addresses the need for online event organization, discovery and management. The calendar orientation of this project will allow it to group on a single page upcoming events, accept, refuse or send invitations. A chat linked to each event will allow the participant to organize himself there, as well as to visualize all the information related to the event. 
+Le projet MyCalendApp répond au besoin d'organisation, de découverte et de gestion d'événements en ligne. L'orientation calendrier de ce projet lui permettra de regrouper sur une seule page les événements à venir, d'accepter, de refuser ou d'envoyer des invitations. Un chat lié à chaque événement permettra au participant de s'y organiser, ainsi que de visualiser toutes les informations liées à l'événement. 
 
-## 2 - Dictionary
+## 2 - Glossaire
 
 ...
 
 
-## 3 - Objectives
+## 3 - Objectifs
 
-### General Goals
+### Objectif Général
 
-The main objective of the MyCalendApp project is to provide a platform to simplify the organization of events. 
-As well as to allow users to better organize their time.
+L'objectif principal du projet MyCalendApp est de fournir une plateforme pour simplifier l'organisation d'événements. 
+Ainsi que de permettre aux utilisateurs de mieux organiser leur temps.
 
-### Functional Goals
+### Objectif Fonctionnel
 
-Each user will have to be able to:
-- Create, edit, delete, invite, make public or private an event
-- Join , leave, consult a list of public or private events to which he has been invited
-- Added friends to be able to view the public events in which they participate.
-- discuss, access to images and information on the events to which he or she subscribes
+Chaque utilisateur devra pouvoir:
+- Créer, modifier, supprimer, inviter, rendre public ou privé un événement
+- Rejoindre, quitter, consulter la liste des événements publics ou privés auxquels il a été invité
+- Ajout d'amis pour pouvoir consulter les événements publics auxquels ils participent.
+- de discuter, d'accéder à des images et à des informations sur les événements auxquels il s'est inscrit
 
-### Secondary functional Goals
 
-Each user will have to be able to:
-- Subscribe to tags and thus be kept informed when creating events containing this tag.
-- The user must be able to connect through his facebook account and see his facebook events on his MyCalendApp calendar.
+### Objectif Fonctionnel Secondaire
 
-### Targets
-Will be targeted by this application :
-- A young population adept with online digital tools
-- People with a wider circle of friends who have organizational difficulties
-- Older people with memory loss
+Chaque utilisateur devra pouvoir le faire :
+- S'abonner aux balises et ainsi être tenu informé lors de la création d'événements contenant cette balise.
+- L'utilisateur doit pouvoir se connecter via son compte facebook et voir ses événements facebook sur son calendrier MyCalendApp.
 
-## 4 - Quality of Service and Security
+### Cibles
+Seront visés par cette application :
+- Une population jeune adepte des outils numériques en ligne
+- Les personnes ayant un cercle d'amis plus large et qui ont des difficultés d'organisation
+- Personnes âgées ayant des pertes de mémoire
 
-### Availability 
+## 4 - Qualité de service et Securité
 
-The availability of this application will depend on the availability of the Heroku cloud provider, refer to [Heroku Status Page](https://status.heroku.com/).
+### Disponibilité 
 
-### Security
+La disponibilité de cette application dépendra de la disponibilité du fournisseur cloud Heroku, voir [Heroku Status Page](https://status.heroku.com/).
 
-All connections to the MyCalendApp application will be made via the HTTPS protocol. A dependency security analysis is also implemented by github via [Dependabot](https://docs.github.com/en/free-pro-team@latest/github/managing-security-vulnerabilities/about-alerts-for-vulnerable-dependencies).
+### Securité
 
-The authorizations will be done via a JWT and the login will be done via a database encrypted password.
+Toutes les connexions à l'application MyCalendApp seront effectuées via le protocole HTTPS. Une analyse de sécurité des dépendances est également mise en œuvre par github via [Dependabot](https://docs.github.com/en/free-pro-team@latest/github/managing-security-vulnerabilities/about-alerts-for-vulnerable-dependencies).
 
-## 5 - Delivery
+Les autorisations se feront via un JWT et la connexion se fera via un mot de passe crypté en base de données.
 
-Delivery to production will be done automatically when merged to master according to GitFlow Workflow.
+## 5 - Livraison
 
-It can also be done on demand by the development team.
+La livraison en production se fera automatiquement lors du merge dans master selon le GitFlow Workflow.
+Elle peut également être effectuée à la demande par l'équipe de développement. 
+
+L'application sera accessible sur [https://mycalendapp.herokuapp.com/](https://mycalendapp.herokuapp.com/)

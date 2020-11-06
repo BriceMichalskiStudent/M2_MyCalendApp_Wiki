@@ -1,6 +1,6 @@
-[MyCalendApp](../README.md) > [Spécification](./specification.md) > [Detailed specifications](./detailed.md)
+[MyCalendApp](../README.md) > [Spécification](./specification.md) > [Spécification Détailée](./detailed.md)
 
-# II - Detailed specifications
+# II - Spécification Détailée
 
 ## 1 - User Accounts
 

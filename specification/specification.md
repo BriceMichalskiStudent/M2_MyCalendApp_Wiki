@@ -3,12 +3,12 @@
 
 # MyCalendApp Spécification
 
-## About
+## A propos
 
-Here you can find all the functional specifications of the MyCalendApp application.
+Vous pourrez trouver ici toutes les specifications du projet MyCalendApp
 
 ## Available page: 
-- [I - Global Specification](./global.md)
-- [II - Detailed specifications](./detailed.md)
+- [I - Spécification Globale](./global.md)
+- [II - Spécification Détailée](./detailed.md)
 - [III - User Story](./user_story.md)
 
