@@ -1,4 +1,4 @@
-[Home](../Home.md) > [Database](./database.md) > [Data Model](./datamodel.md)
+[Home](https://github.com/MyCalendApp/backend/wiki/Home) > [Database](https://github.com/MyCalendApp/backend/wiki/Database) > [Data Model](https://github.com/MyCalendApp/backend/wiki/data_model)
 
 # Data Model
 

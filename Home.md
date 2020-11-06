@@ -1,4 +1,4 @@
-[Home](../Home.md) 
+[Home](https://github.com/MyCalendApp/backend/wiki/Home)
 
 # Welcome to the MyCalendApp wiki!
 
