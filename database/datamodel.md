@@ -1,16 +1,6 @@
-hosting : Mongodb Atlas
+[Home](../Home.md) > [Database](./database.md) > [Data Model](./datamodel.md)
 
-### Connect: 
-
-mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
-
-### Available database
-
-- calendar_dev
-
-- calendar_prod
-
-# Data model
+# Data Model
 
 ## users 
 
