@@ -1,10 +1,10 @@
 hosting : Mongodb Atlas
 
-## Connect: 
+### Connect: 
 
 mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
 
-## DB & Collection
+### DB & Collection
 
 - calendar_dev
 
