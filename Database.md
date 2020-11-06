@@ -4,7 +4,7 @@ hosting : Mongodb Atlas
 
 mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
 
-### DB & Collection
+### Available database
 
 - calendar_dev
 
