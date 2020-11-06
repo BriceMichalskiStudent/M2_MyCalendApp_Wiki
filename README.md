@@ -9,8 +9,9 @@ MyCalendApp is a School Project aiming to implement a social network. The partic
 ## Summary:
 
 - [Specification](./specification/specification.md) 
-    - [Global Specification](./specification/global.md)
-    - [Detailed specifications](./specification/detailed.md)
+    - [I - Global Specification](./specification/global.md)
+    - [II - Detailed specifications](./specification/detailed.md)
+    - [III - User Story](./specification/user_story.md)
 
 - [Database](./database/database.md)
     - [Data Model](./database/model.md)
