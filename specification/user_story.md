@@ -1,9 +1,11 @@
 [MyCalendApp](../README.md) > [Spécification](./specification.md) > [III - User Story](./user_story.md)
 
-# Detailed specifications
+# User Story
 
-## 1 - User Accounts
+## 1 - Create Account & Login
 
-## 2 - Database
+## 2 - Create Event
 
-## 3 - Navigation and Ergonomics
+## 3 - Join Event
+
+## 4 - Add Comments
