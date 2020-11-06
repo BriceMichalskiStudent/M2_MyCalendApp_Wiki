@@ -10,14 +10,17 @@ mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
 
 - calendar_prod
 
-# Data mondel
+# Data model
 
 ## users 
 
 ```json
 {
- name: "",
- adress: ""
+ "name": "John",
+ "lastname": "Doe"
+ "adress": {
+    "city":"London"
+  }
  
 }
 ```
