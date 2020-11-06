@@ -23,6 +23,7 @@ mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
         "last": "gibson"
     },
     "password": "very_secret",
-    "friends": ["ID1","ID2","..."]
+    "friends": ["ID1","ID2","..."],
+    "" 
 }
 ```
