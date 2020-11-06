@@ -16,24 +16,25 @@ mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
 
 ```json
 {
-      "gender": "male",
-      "name": {
+    "gender": "male",
+    "name": {
         "title": "mr",
         "first": "brad",
         "last": "gibson"
-      },
-      "location": {
+    },
+    "location": {
         "street": "9278 new road",
         "city": "kilcoole",
         "state": "waterford",
         "postcode": "93027",
         "coordinates": {
-          "latitude": "20.9267",
-          "longitude": "-7.9310"
+            "latitude": "20.9267",
+            "longitude": "-7.9310"
         },
         "timezone": {
-          "offset": "-3:30",
-          "description": "Newfoundland"
+            "offset": "-3:30",
+            "description": "Newfoundland"
         }
-      }
+    }
+}
 ```
