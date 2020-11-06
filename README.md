@@ -1,4 +1,4 @@
-[Home](./README.md)
+[MyCalendApp](./README.md)
 
 # Welcome to the MyCalendApp wiki!
 
