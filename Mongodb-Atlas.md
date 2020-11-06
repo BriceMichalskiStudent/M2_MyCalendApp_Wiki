@@ -1,3 +1,3 @@
 ## Connect: 
 
-mongodb+srv://CalendAppUser:6EQUJ5wow@mycalendapp.nbkps.mongodb.net/test
+mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
