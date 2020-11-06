@@ -17,7 +17,7 @@ mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
 ```json
 {
  "name": "John",
- "lastname": "Doe"
+ "lastname": "Doe",
  "adress": {
     "city":"London"
   }
