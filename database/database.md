@@ -1,7 +1,7 @@
 [Home](../Home.md) > [Database](./database.md)
 
 
-# MyCalendApp database wiki!
+# MyCalendApp Database wiki!
 
 ## About
 
