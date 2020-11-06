@@ -1,4 +1,4 @@
-[MyCalendApp](../README.md) > [Spécification](./specification.md) > [Detailed specifications](./detailed.md)
+[MyCalendApp](../README.md) > [Spécification](./specification.md) > [II - Detailed specifications](./detailed.md)
 
 # Detailed specifications
 

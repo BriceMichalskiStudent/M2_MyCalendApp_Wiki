@@ -8,5 +8,6 @@
 Here you can find all the functional specifications of the MyCalendApp application.
 
 ## Available page: 
-- [Global Specification](./global.md)
-- [Detailed specifications](./detailed.md)
+- [I - Global Specification](./global.md)
+- [II - Detailed specifications](./detailed.md)
+- [III - User Story](./user_story.md)
