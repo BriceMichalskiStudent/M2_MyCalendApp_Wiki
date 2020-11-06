@@ -38,7 +38,17 @@ Will be targeted by this application :
 - People with a wider circle of friends who have organizational difficulties
 - Older people with memory loss
 
-
 ## 4 - Quality of Service and Security
 
+### Availability 
+
+The availability of this application will depend on the availability of the Heroku cloud provider, refer to [Heroku Status Page](https://status.heroku.com/)
+
+### Security
+
+All connections to the MyCalendApp application will be made via the HTTPS protocol. A dependency security analysis is also implemented by github via [Dependabot](https://docs.github.com/en/free-pro-team@latest/github/managing-security-vulnerabilities/about-alerts-for-vulnerable-dependencies).
+
+The authorizations will be done via a JWT and the login will be done via a database encrypted password.
+
 ## 5 - Delivery
+
