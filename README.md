@@ -1,12 +1,12 @@
 [MyCalendApp](./README.md)
 
-# Welcome to the MyCalendApp wiki!
+# Bienvenue sur le wiki MyCalendApp !
 
-## About 
+## A propos 
 
-MyCalendApp is a School Project aiming to implement a social network. The particularity of this social network is to be calendar oriented with shared events, in public or private, with comments, a list of participants, a photo sharing on past events, a discussion and an organization tab for future events.
+MyCalendApp est un projet scolaire visant à mettre en place un réseau social. La particularité de ce réseau social est d'être orienté calendrier avec des événements partagés, en public ou en privé, avec des commentaires, une liste de participants, un partage de photos sur les événements passés, une discussion et un onglet d'organisation pour les événements futurs.
 
-## Summary:
+## Sommaire:
 
 - [Specification](./specification/specification.md) 
     - [I - Spécification Globale](./specification/global.md)
