@@ -42,7 +42,7 @@ Will be targeted by this application :
 
 ### Availability 
 
-The availability of this application will depend on the availability of the Heroku cloud provider, refer to [Heroku Status Page](https://status.heroku.com/)
+The availability of this application will depend on the availability of the Heroku cloud provider, refer to [Heroku Status Page](https://status.heroku.com/).
 
 ### Security
 
@@ -52,3 +52,6 @@ The authorizations will be done via a JWT and the login will be done via a datab
 
 ## 5 - Delivery
 
+Delivery to production will be done automatically when merged to master according to GitFlow Workflow.
+
+It can also be done on demand by the development team.
