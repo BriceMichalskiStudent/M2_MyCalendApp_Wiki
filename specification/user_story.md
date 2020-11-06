@@ -1,6 +1,6 @@
-[MyCalendApp](../README.md) > [Spécification](./specification.md) > [III - User Story](./user_story.md)
+[MyCalendApp](../README.md) > [Spécification](./specification.md) > [User Story](./user_story.md)
 
-# User Story
+# III - User Story
 
 ## 1 - Create Account & Login
 

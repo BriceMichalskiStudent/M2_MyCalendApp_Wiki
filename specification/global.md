@@ -1,6 +1,6 @@
-[MyCalendApp](../README.md) > [Spécification](./specification.md) > [I - Global Specification](./global.md)
+[MyCalendApp](../README.md) > [Spécification](./specification.md) > [Global Specification](./global.md)
 
-# Global Specification
+# I - Global Specification
 
 ## 1 - Origin of the need
 
