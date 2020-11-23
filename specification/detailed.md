@@ -9,7 +9,7 @@
 #### Anonymous
 
 Designe les internautes utilisant notre application web sans etre authentifié. 
-Doit : cf [Droits des utilisateur anonyme](./user_stories.md#-Utilisateur-anonyme)
+Doit : cf [Droits des utilisateur anonyme](./user_stories.md#utilisateur-anonyme)
 
 #### User
 
