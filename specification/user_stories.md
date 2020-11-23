@@ -50,7 +50,7 @@
 ### Description
 
 En tant que :
-#### Utilisateur anonyme
+- #### Utilisateur anonyme
 
 **je veux pouvoir** 
 
