@@ -18,7 +18,7 @@
     "friends": [
       {"{User}": "{User}"}
     ],
-    "tags": ["tag1","tag2"],
+    "tags": [{"{Tag}": "{Tag}"}],
     "{Role}": "{Role}"
 }
 ```
@@ -47,7 +47,11 @@ Il y a 2 roles "ADMIN" et "USER".
     ],
     "creator": {
       "{User}": "{User}"
-    }
+    },
+    "tags": [{"{Tag}": "{Tag}"}],
+    "localization": {
+      "2DSPHERE": "2DSPHERE"
+    } 
 }
 ```
 
@@ -62,5 +66,14 @@ Il y a 2 roles "ADMIN" et "USER".
     "creator": {
       "{User}": "{User}"
     }
+}
+```
+
+## Tag 
+
+```json
+{
+    "code": "KITCHEN",
+    "name": "Cuisine"
 }
 ```
