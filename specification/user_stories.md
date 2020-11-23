@@ -1,7 +1,7 @@
 [MyCalendApp](../README.md) > [Spécification](./specification.md) > [User Stories](./user_stories.md)
 
-# III - User Story
-## Sommaire des User story:
+# III - User Stories
+## Sommaire des User Stories:
 
 - [Login](#1---login) 
 - [Droits d'accès](#2---droits-daccès)
@@ -48,7 +48,19 @@
 ## 2 - Droits d'accès
 
 ### Description
-**En tant que** administrateur **je veux pouvoir** maitriser l'ensemble des droits d'acces de l'application **Afin de** restreindre l'accès a certaines informations et fonctionnalités jugé inutile pour certain 'type' d'utilisateur. 
+
+En tant que :
+#### Utilisateur anonyme
+
+**je veux pouvoir** 
+
+
+#### Utilisateur authentifié
+
+**je veux pouvoir** 
+
+#### administrateur
+**je veux pouvoir** maitriser l'ensemble des droits d'acces de l'application **Afin de** restreindre l'accès a certaines informations et fonctionnalités jugé inutile pour certain 'type' d'utilisateur. 
 
 ### Règles metiers
 **1.** Il existera 3 roles différents : Administrateur, Animateur et Communicant

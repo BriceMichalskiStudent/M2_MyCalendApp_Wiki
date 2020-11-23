@@ -4,9 +4,23 @@
 
 ## 1 - Compte Utilisateur
 
-Une partie des fonctionnalités de cette application seront disponible au utilisateur non connecté, mais la plus part seront reservées au utilisateur authentifié.
+### Type d'utilisateur
 
-### 
+#### Anonymous
+
+Designe les internautes utilisant notre application web sans etre authentifié. 
+Doit : cf [Droits des utilisateur anonyme](./user_stories.md#-Utilisateur-anonyme)
+
+#### User
+
+Etend les droits de **Anonymous**
+
+#### Admin
+
+Etend les droits de **User**
+
+
+### Creation de compte
 
 
 ## 2 - Database
