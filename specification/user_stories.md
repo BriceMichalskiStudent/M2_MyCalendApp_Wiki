@@ -41,7 +41,7 @@
 **Alors** je suis rediriger une page ou il est indiquer le succes de l'operation et je recois un mail m'indiquant mon nouveau mots de passe
 
 #### Scenario 8 : Reinitialisation de mots de passe, email inconnu (facultatif)
-**Lorsque** je rentre mon adresse mail dans le formulaire de la page mots de passe oublie et que je le soummet (double verification => pop-up: etes vous sur de vouloir réinitialiser votre mots de passe ?)
+**Lorsque** je rentre mon adresse mail dans le formulaire de la page mots de passe oublie et que je le soummet (double verification => pop-up: etes vous sur de vouloir réinitialiser votre mots de passe ?)  
 **Alors** celui-ci m'afficher une page d'erreur m'indiquant qu'aucun utilisateur utilisant cet adresse email n'est connu.
 
 
