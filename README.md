@@ -23,3 +23,18 @@ L'application possède un certain nombre de fonctionalite : commentaires, inscri
     
 - [Graphisme](./graphisme/graphisme.md)
     - [Maquette](./graphisme/maquette.md)
+
+## Status
+
+|          |      Backend      |  Frontend |
+|----------|:-------------:|:------:|
+|PROD|![Website Prod](https://img.shields.io/website-up-down-green-red/http/api-mycalendapp.herokuapp.com/ping)||
+|DEV|![Website Dev](https://img.shields.io/website-up-down-green-red/http/dev-api-mycalendapp.herokuapp.com/ping)||
+
+## Intégration continue
+
+
+|          |      Backend      |  Frontend |
+|----------|:-------------:|:------:|
+| develop |  ![GitHub Super-Linter](https://github.com/MyCalendApp/backend/workflows/Continuous%20Integration/badge.svg?branch=develop) | ?? |
+| master |   ![GitHub Super-Linter](https://github.com/MyCalendApp/backend/workflows/Continuous%20Integration/badge.svg?branch=master)    | ?? |

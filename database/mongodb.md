@@ -2,13 +2,34 @@
 
 # MondoDB Page
 
-## Connect: 
+## Cluster Information : 
 
-mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
+> Cluster mongodb managé par [Mongo Atlas](https://www.mongodb.com/cloud/atlas)
 
-## Available database
+### Hebergement
 
-- calendar_dev (for test and development)
+| Information | Value |  
+|---|---|
+| Provider  | AWS  |
+| Zone | Frankfurt (eu-central-1)  |
+| Replica Set | 3 nodes |
 
-- calendar_prod (for production environnement)
+### Noeuds
+
+| Node | Role |  
+|---|---|
+| mycalendapp-shard-00-00 | SECONDARY  |
+| mycalendapp-shard-00-01 | PRIMARY  |
+| mycalendapp-shard-00-02 | SECONDARY |
+
+## Chaine de connection
+
+`mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test`
+
+## Base de données
+
+- calendar_dev (pour le developpement et l'intégration)
+- calendar_prod (pour l'environnement de production)
+
+> La structure de base de données est accessible ici : [Data Model](./model.md)
 
