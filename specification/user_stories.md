@@ -56,7 +56,7 @@ En tant que :
     - Je veux pouvoir avoir accés à un formulaire d'inscription. 
 
 - #### Utilisateur authentifié
-    En plus des droits des utilsateuranonymes, **je veux pouvoir** 
+    En plus des droits des utilsateuranonymes, **je veux pouvoir** :
     - Je veux pouvoir me connecter avec mes identifiants.
     - Je veux pouvoir modifier/supprimer mon compte utilisateur.
     - M'inscrire / Me déinscrire à un des evenements à proximités
