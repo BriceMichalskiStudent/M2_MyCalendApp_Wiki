@@ -4,7 +4,7 @@
 
 ## Cluster Information : 
 
-> Cluster mongodb hebergé par [Mongo Atlas](https://www.mongodb.com/cloud/atlas)
+> Cluster mongodb managé par [Mongo Atlas](https://www.mongodb.com/cloud/atlas)
 
 ### Hebergement
 
@@ -24,7 +24,7 @@
 
 ## Connect String: 
 
-> mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
+`mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test`
 
 ## Available database
 
