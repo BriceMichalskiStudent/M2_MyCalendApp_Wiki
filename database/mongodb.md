@@ -22,9 +22,9 @@
 | mycalendapp-shard-00-01 | PRIMARY  |
 | mycalendapp-shard-00-02 | SECONDARY |
 
-## Connect: 
+## Connect String: 
 
-mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
+> mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test
 
 ## Available database
 
