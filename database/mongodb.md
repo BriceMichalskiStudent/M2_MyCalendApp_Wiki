@@ -22,13 +22,14 @@
 | mycalendapp-shard-00-01 | PRIMARY  |
 | mycalendapp-shard-00-02 | SECONDARY |
 
-## Connect String: 
+## Chaine de connection
 
 `mongodb+srv://CalendAppUser:<secret>@mycalendapp.nbkps.mongodb.net/test`
 
-## Available database
+## Base de données
 
-- calendar_dev (for test and development)
+- calendar_dev (pour le developpement et l'intégration)
+- calendar_prod (pour l'environnement de production)
 
-- calendar_prod (for production environnement)
+> pour la structure de base de données voir [Data Model](./model.md)
 
