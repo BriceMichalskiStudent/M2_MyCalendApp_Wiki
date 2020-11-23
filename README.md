@@ -16,6 +16,9 @@ Mais il est tout à fait envisageable d'élargir le produit pour une cible qui p
 
 ## Personae
 <p align="center">
+  <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/persona_dev.jpg" alt="personae"/>
+</p>
+<p align="center">
   <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/persona_aventurier.jpg" alt="personae"/>
 </p>
 <p align="center">

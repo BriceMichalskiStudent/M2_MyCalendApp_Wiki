@@ -2,7 +2,12 @@
 
 # II - Spécification Détailée
 
-## 1 - User Accounts
+## 1 - Compte Utilisateur
+
+Une partie des fonctionnalités de cette application seront disponible au utilisateur non connecté, mais la plus part seront reservées au utilisateur authentifié.
+
+### 
+
 
 ## 2 - Database
 
