@@ -3,10 +3,10 @@
 
 # MyCalendApp Database wiki!
 
-## About
+## A propos
 
 You can find here all the information related to the database such as the connection information or the data model.
 
-## Available page: 
+## Pages disponible : 
 - [Data Model](./model.md)
 - [MongoDB](./mongodb.md)
