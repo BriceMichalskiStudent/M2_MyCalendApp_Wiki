@@ -51,17 +51,26 @@
 
 En tant que :
 - #### Utilisateur anonyme
-    **je veux pouvoir** :
-
+    **je veux pouvoir** : 
+        - Consulter la liste des evenements à proximités ainsi que leurs details ainsi qu'aux commentaires liés à cet event. 
+        - Je veux pouvoir avoir accés à un formulaire d'inscription. 
 
 - #### Utilisateur authentifié
-    **je veux pouvoir** : 
+    En plus des droits des utilsateur anonymes, **je veux pouvoir** : 
+        - Je veux pouvoir me connecter avec mes identifiants.
+        - Je veux pouvoir modifier/supprimer mon compte utilisateur.
+        - M'inscrire / Me déinscrire à un des evenements à proximités
+        - Ajouter des commentaires sous les evenements à proximités
+        - Créer un évenement, acceder à la liste des participants, modifier l'evenements.
 
 - #### administrateur
-    **je veux pouvoir** : maitriser l'ensemble des droits d'acces de l'application **Afin de** restreindre l'accès a certaines informations et fonctionnalités jugé inutile pour certain 'type' d'utilisateur. 
+    En plus des droits des utilsateurs authentifiés, **je veux pouvoir** : 
+        - Gerer les comptes utilistateurs (CRUD)
+        - Gerer l'ensembles des evenements (CRUD)
+        - Validée/Supprimer les commentaires detecté comme étant injurieux
 
 ### Règles metiers
-**1.** Il existera 3 roles différents : Administrateur, Animateur et Communicant
+**1.** Il existera 2 roles différents : Utilisateur, administrateur
 
 ### Validation
 #### Scenario 1 : Acces interdit
