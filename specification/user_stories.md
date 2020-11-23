@@ -12,11 +12,13 @@
 
 ### Description
 
-**En tant que** administrateur **je veux pouvoir** maitriser l'ensemble des utilisateurs de l'application **Afin de** pouvoir limiter l'accès aux informations de l'application strictement qu’aux personnes concernées. 
+Sont ici decritent, les regles et modalités d'incription, de connexion, d'oublie, de reinitialisation de son mot de passe.
 
 ### Règles metiers
 
-**1.** le formulaire contiendra seulement un champ `email` et `mots de passe`
+**1.** Lors de la connexion le formulaire contiendra seulement un champ `email` et `mots de passe`
+
+**2.** Lors de l'inscription seront demandé les champs : `nom`,`prenom`,`genre`,`email`,`telephone`,`mots de passe`
 
 ### Validation
 
@@ -44,8 +46,8 @@
 
 * #### Scenario 5 : Non connecter, redirection
 
-    **Lorsque** j'essaie de me rendre directement sur la page d'accueil de l'application agenda sans etre connecter.  
-    **Alors** je suis rediriger automatiquement vers le formulaire de connexion avec un message m'indiquant que je dois etre connecter afin d'accéder a cette page. 
+    **Lorsque** Je suis non connecté, et j'essaye de rajouter un commentaire  
+    **Alors** Il m'est inndiqué par une pop-up que je n'ai pas les droits suffisant, un button m'invite a me rendre sur le formulaire d'inscription
 
 * #### Scenario 6 : Page mots de passe oublie (facultatif)
 
@@ -100,29 +102,11 @@ En tant que :
 ### Validation
 
 #### Scenario 1 : Acces interdit
+
 **Lorsque** je suis connecter en temps qu'utilisateur 
 **Alors** je ne peux pas acceder a certaine page du site
 **Et donc** le serveur me renvoie vers une page d'erreur 403 : acces interdit
 
-## 3 - logs
-
-### Description
-**En tant que** administrateur **je veux pouvoir** avoir une vue sur les logs de l'application **Afin de** connaîtres les derrieres actions faites avant l'éruption d'un bug ou autre. 
-
-### Règles metiers
-
-**1.** Seuls les administrateurs peuvent consulter les logs de l'application
-
-### Validation
-
-#### Scenario 1 : Consultation
-**Lorsque que** je suis connecter a l'application en tant qu’administrateur
-**Alors** je peux consulter la page log de l'application
-
-#### Scenario 2 : Refus
-
-**Lorsque** je suis connecter a l'application en tant que rédacteur
-**Alors** je ne peux pas accéder a la page log (celle-ci ne figure pas dans le menu)
 
 ## 4 - Create an account
 
