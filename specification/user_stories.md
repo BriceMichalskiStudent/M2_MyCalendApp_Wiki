@@ -2,11 +2,19 @@
 
 # III - User Stories
 
-## Sommaire des User Stories:
+- [Login](#1---login) 
+- [Droits d'accès](#2---droits-daccès)
+- [Create account](#3---create-an-account)
+- [Create events](#4---create-event)
+- [Event inscription](#5---event-inscription)
+- [Comments](#6---comments)
+- [Management des participants](#7---management-des-participants)
+- [Send email](#8---send-email)
+- [User account](#9---user-account)
 
-* [Login](#1---login) 
-* [Droits d'accès](#2---droits-daccès)
-* [Logs](#3---logs)
+
+
+
 
 ## 1 - Login
 
@@ -31,38 +39,9 @@ Sont ici decritent, les regles et modalités d'incription, de connexion, d'oubli
 
     **Lorsque** je rentre le bon combo `email` et `mots de passe`
 
-    **Alors** je suis automatiquement rediriger vers la page d'accueil du dashboard 
 
-* #### Scenario 3 : Connexion, erreur
 
-    **Lorsque** je rentre un mauvais combo `email` et `mots de passe`
 
-    **Alors** un message d'erreur apparait m'indiquant que mon mots de passe ou mon email n'est pas bon.
-
-* #### Scenario 4 : Mauvaise adresse mail
-
-    **Lorsque** je rentre une adresse email qui ne respecte pas le bon format  
-    **Alors** je ne peux pas soumettre le formulaire et un message d'erreur m'indique que l'adresse mail rentrer n'est pas bonne
-
-* #### Scenario 5 : Non connecter, redirection
-
-    **Lorsque** Je suis non connecté, et j'essaye de rajouter un commentaire  
-    **Alors** Il m'est inndiqué par une pop-up que je n'ai pas les droits suffisant, un button m'invite a me rendre sur le formulaire d'inscription
-
-* #### Scenario 6 : Page mots de passe oublie (facultatif)
-
-    **Lorsque** je ne trouve plus mon mots de passe  
-    **Alors** je peux me rendre sur la page `mots de passe oublie`
-
-* #### Scenario 7 : Reinitialisation de mots de passe, email existant (facultatif)
-
-    **Lorsque** je rentre mon adresse mail dans le formulaire de la page mots de passe oublie et que je le soummet (double verification => pop-up: etes vous sur de vouloir réinitialiser votre mots de passe ?)  
-    **Alors** je suis rediriger une page ou il est indiquer le succes de l'operation et je recois un mail m'indiquant mon nouveau mots de passe
-
-* #### Scenario 8 : Reinitialisation de mots de passe, email inconnu (facultatif)
-
-    **Lorsque** je rentre mon adresse mail dans le formulaire de la page mots de passe oublie et que je le soummet (double verification => pop-up: etes vous sur de vouloir réinitialiser votre mots de passe ?)  
-    **Alors** celui-ci m'afficher une page d'erreur m'indiquant qu'aucun utilisateur utilisant cet adresse email n'est connu.
 
 ## 2 - Droits d'accès
 
@@ -104,20 +83,144 @@ En tant que :
 #### Scenario 1 : Acces interdit
 
 **Lorsque** je suis connecter en temps qu'utilisateur 
-**Alors** je ne peux pas acceder a certaine page du site
+**Alors** je ne peux pas accéder a certaine page du site
 **Et donc** le serveur me renvoie vers une page d'erreur 403 : acces interdit
 
 
-## 4 - Create an account
 
-## 5 - Create Event
 
-## 6 - Inscription
+## 3 - Create an account
+### Description
+**En tant que** utilisateur **je veux pouvoir** avoir un suivi de mon activite sur le site **Afin de** conserver une trace de mes actions passe. 
 
-## 7 - Add Comments
+### Validation
+#### Scenario 1 : Creation
+**Lorsque que** je visite le site
+**Alors** je peux me cree un compte facilement grace un combo `adresse mail` et `mots de passe` 
+#### Scenario 2 : Consultation
+**Lorsque que** je suis connecter a l'application
+**Alors** je peux consulter les pages mon comptes, mes inscriptions et mes évènements
+#### Scenario 3 : Securite
+**Lorsque** j'essaie de cree un compte avec une adresse email deja existante
+**Alors** le site me renvoie une erreur : Cette adresse email est deja associer a un compte utilisateur.
 
-## 8 - Management des participants
 
-## 9 - Envoie email
 
-## 10 - Gestion du compte
+
+## 4 - Create Event
+### Description
+**En tant que** utilisateur **je veux pouvoir** proposer des événements **Afin de** gerer plus facilement mon évènement. 
+
+### Règles metiers
+**1.** Seuls les utilisateurs authentifié peuvent accéder a cet fonctionalite
+
+### Validation
+#### Scenario 1 : Formulaire
+**Lorsque que** je suis connecter a l'application
+**Alors** je peux accéder et soumettre le formulaire de creation d'évènement
+
+#### Scenario 2 : Creation
+**Lorsque** je valide l'ensemble des informations du formulaire de creation d'évènement
+**Alors** mon évènement est publie sur le site et est accessible.
+
+
+
+
+## 5 - Event inscription
+### Description
+**En tant que** utilisateur **je veux pouvoir** m'inscrire a des événements **Afin d'** informer l'organisateur de mon souhait de venir. 
+
+### Règles metiers
+**1.** Seuls les utilisateurs authentifié peuvent accéder a cet fonctionalite
+
+### Validation
+#### Scenario 1 : Inscription
+**Lorsque que** je suis connecter a l'application et que je me rend sur une page detail d'un évènement
+**Alors** je peux m'inscrire a cet évènement en cliquant sur un bouton
+
+#### Scenario 2 : Désinscription
+**Lorsque que** je suis connecter a l'application et que je me rend sur une page detail d'un évènement
+**Alors** je peux me désinscrire de cet évènement en cliquant sur un bouton
+
+#### Scenario 3 : Mes inscriptions
+**Lorsque que** je suis connecter a l'application
+**Alors** je peux me rendre sur la page mes inscriptions, celle-ci reference l'ensemble des évènements auquel je me suis inscrit.
+
+
+
+## 6 - Comments
+### Description
+**En tant que** utilisateur **je veux pouvoir** donner mon avis **Afin de** partager mon point du vue et échanger avec d'autres utilisateurs. 
+
+### Règles metiers
+**1.** Seuls les utilisateurs authentifié peuvent accéder a cet fonctionalite
+
+### Validation
+#### Scenario 1 : Formulaire
+**Lorsque que** je suis connecter a l'application
+**Alors** je peux commenter sur l'ensemble des pages de detail des évènements
+
+#### Scenario 2 : Creation
+**Lorsque** je valide soumet le formulaire de creation de commentaire
+**Alors** mon commentaire est publie sous la page de l'évènement concerner.
+
+
+
+
+
+## 7 - Management des participants
+### Description
+**En tant que** utilisateur **je veux pouvoir** savoir qui est inscrit a mon évènement **Afin de** prévoir en consequence mon évènement. 
+
+### Règles metiers
+**1.** Seuls les utilisateurs authentifié peuvent accéder a cet fonctionalite
+**2.** Seuls les possesseurs de l'évènement peuvent accéder a cet fonctionalite
+
+### Validation
+#### Scenario 1 : Consultation
+**Lorsque que** je suis connecter a l'application
+**Alors** je peux accéder et soumettre le formulaire de creation d'évènement
+
+#### Scenario 2 : Management
+**Lorsque** je suis sur la page de mon évènement
+**Alors** je peux consulter la liste des participants de l'évènement.
+
+
+
+
+
+## 8 - Envoie email
+### Description
+**En tant que** utilisateur **je veux pouvoir** etre notifier lorsqu'il y a des changements sur des elements spécifiques **Afin d'** etre prévenue.
+ 
+### Validation
+#### Scenario 1 : Inscription
+**Lorsque que** je m'inscrit a un évènement
+**Alors** je recois un mail me confirmant mon inscription 
+
+#### Scenario 2 : Commentaire
+**Lorsque qu'** un utilisateur commente mon évènement
+**Alors** je recois un mail avec le contenu de son commentaire mon inscription
+
+
+
+
+## 9 - User account
+### Description
+**En tant que** utilisateur **je veux pouvoir** gerer mes donnees **Afin de** d'avoir le controle. 
+
+### Règles metiers
+**1.** Seuls les utilisateurs authentifié peuvent accéder a cet fonctionalite
+
+### Validation
+#### Scenario 1 : Modification
+**Lorsque que** je suis connecter
+**Alors** j'ai accéder a la page `mon compte` qui me permet de modifier l'ensemble des informations de mon compte utilisateur.
+
+#### Scenario 2 : Suppression
+**Lorsque** je suis connecter
+**Alors** j'ai accéder a la page `mon compte` qui me permet de supprimer de manière definitive mon compte.
+
+#### Scenario 3 : Portabilité (optionel)
+**Lorsque** je suis connecter
+**Alors** j'ai accéder a la page `mon compte` qui me permet de télécharger l'ensemble de mes donnees.
