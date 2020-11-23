@@ -24,7 +24,7 @@ Etend les droits de **User**
 
 ### Creation de compte
 
-L'ensemble des informations relatives à la création de compte est accessible [sur cette page.](./user_stories#1---login)
+L'ensemble des informations relatives à la création de compte est accessible [sur cette page.](./user_stories.md#1---login)
 
 ## 2 - Database
 
