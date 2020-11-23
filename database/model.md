@@ -25,6 +25,8 @@
 
 ## Role 
 
+Il y a 2 roles "ADMIN" et "USER".
+
 ```json
 {
     "code": "ADMIN",
