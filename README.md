@@ -36,5 +36,5 @@ L'application possède un certain nombre de fonctionalite : commentaires, inscri
 
 |          |      Backend      |  Frontend |
 |----------|:-------------:|:------:|
-| develop |  ![GitHub Super-Linter](https://github.com/MyCalendApp/backend/workflows/Continuous%20Integration/badge.svg?branch=develop) | ?? |
-| master |   ![GitHub Super-Linter](https://github.com/MyCalendApp/backend/workflows/Continuous%20Integration/badge.svg?branch=master)    | ?? |
+| develop |  [![GitHub Super-Linter](https://github.com/MyCalendApp/backend/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://dev-api-mycalendapp.herokuapp.com/ping) | ?? |
+| master |   [![GitHub Super-Linter](https://github.com/MyCalendApp/backend/workflows/Continuous%20Integration/badge.svg?branch=master)](https://api-mycalendapp.herokuapp.com/ping)    | ?? |
