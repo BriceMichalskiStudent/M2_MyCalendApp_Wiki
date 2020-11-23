@@ -34,10 +34,24 @@ Chaque utilisateur devra pouvoir le faire :
 - L'utilisateur doit pouvoir se connecter via son compte facebook et voir ses événements facebook sur son calendrier MyCalendApp.
 
 ### Cibles
-Seront visés par cette application :
+Pour la cible nous avons decider de nous concentrer sur des particuliers.
+Ce seront donc :
 - Une population jeune adepte des outils numériques en ligne
 - Les personnes ayant un cercle d'amis plus large et qui ont des difficultés d'organisation
-- Personnes âgées ayant des pertes de mémoire
+*PS : l'application aura aussi un dasboard d'administration donc une de nos cibles sera les futurs administrateurs*
+
+Mais il est tout à fait envisageable d'élargir le produit pour une cible qui pourrait etre des groupes par exemple : des associations, des BDE... 
+### Personae
+<p align="center">
+  <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/persona_dev.jpg" alt="personae"/>
+</p>
+<p align="center">
+  <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/persona_aventurier.jpg" alt="personae"/>
+</p>
+<p align="center">
+  <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/persona_jeuns.jpg" alt="personae"/>
+</p>
+
 
 ## 4 - Qualité de service et Securité
 

@@ -23,19 +23,3 @@ L'application possède un certain nombre de fonctionalite : commentaires, inscri
     
 - [Graphisme](./graphisme/graphisme.md)
     - [Maquette](./graphisme/maquette.md)
-    
-## Cible
-Pour la cible nous avons decider de nous concentrer sur des particuliers.
-Mais il est tout à fait envisageable d'élargir le produit pour une cible qui pourrait etre des groupes par exemple : des associations, des BDE... 
-
-## Personae
-<p align="center">
-  <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/persona_dev.jpg" alt="personae"/>
-</p>
-<p align="center">
-  <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/persona_aventurier.jpg" alt="personae"/>
-</p>
-<p align="center">
-  <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/persona_jeuns.jpg" alt="personae"/>
-</p>
-
