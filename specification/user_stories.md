@@ -56,12 +56,12 @@ En tant que :
         - Je veux pouvoir avoir accés à un formulaire d'inscription. 
 
 - #### Utilisateur authentifié
-    En plus des droits des utilsateur anonymes, **je veux pouvoir** : 
-        - Je veux pouvoir me connecter avec mes identifiants.
-        - Je veux pouvoir modifier/supprimer mon compte utilisateur.
-        - M'inscrire / Me déinscrire à un des evenements à proximités
-        - Ajouter des commentaires sous les evenements à proximités
-        - Créer un évenement, acceder à la liste des participants, modifier l'evenements.
+    En plus des droits des utilsateur anonymes, **je veux pouvoir** 
+    - Je veux pouvoir me connecter avec mes identifiants.
+    - Je veux pouvoir modifier/supprimer mon compte utilisateur.
+    - M'inscrire / Me déinscrire à un des evenements à proximités
+    - Ajouter des commentaires sous les evenements à proximités
+    - Créer un évenement, acceder à la liste des participants, modifier l'evenements.
 
 - #### administrateur
     En plus des droits des utilsateurs authentifiés, **je veux pouvoir** : 
