@@ -2,8 +2,9 @@
 
 # MondoDB Page
 
-## Information : 
+## Cluster Information : 
 
+### Hebergement
 
 | Information | Value |  
 |---|---|
@@ -11,7 +12,7 @@
 | Zone | Frankfurt (eu-central-1)  |
 | Replica Set | 3 nodes |
 
-### Cluster
+### Noeuds
 
 | Node | Role |  
 |---|---|
