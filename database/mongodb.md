@@ -31,5 +31,5 @@
 - calendar_dev (pour le developpement et l'intégration)
 - calendar_prod (pour l'environnement de production)
 
-> pour la structure de base de données voir [Data Model](./model.md)
+> La structure de base de données est accessible ici : [Data Model](./model.md)
 
