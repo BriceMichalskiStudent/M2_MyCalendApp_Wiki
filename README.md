@@ -24,6 +24,9 @@ L'application possède un certain nombre de fonctionalite : commentaires, inscri
 - [Graphisme](./graphisme/graphisme.md)
     - [Maquette](./graphisme/maquette.md)
 
-## Status : 
+## Status
 
-- Backend : [![GitHub Super-Linter](https://github.com/MyCalendApp/backend/workflows/Continuous%20Integration/badge.svg)](https://github.com/marketplace/actions/super-linter)
+|          |      Backend      |  Frontend |
+|----------|:-------------:|------:|
+| CI |  ![GitHub Super-Linter](https://github.com/MyCalendApp/backend/workflows/Continuous%20Integration/badge.svg) | ?? |
+| Deploy |    ??   | ?? |
