@@ -42,15 +42,12 @@ Ce seront donc :
 
 Mais il est tout à fait envisageable d'élargir le produit pour une cible qui pourrait etre des groupes par exemple : des associations, des BDE... 
 ### Personae
-<p align="center">
-  <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/persona_dev.jpg" alt="personae"/>
-</p>
-<p align="center">
-  <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/persona_aventurier.jpg" alt="personae"/>
-</p>
-<p align="center">
-  <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/persona_jeuns.jpg" alt="personae"/>
-</p>
+
+![persona_dev](../img/persona_dev.jpg)
+
+![persona_aventurier](../img/persona_aventurier.jpg)
+
+![persona_jeuns](../img/persona_jeuns.jpg)
 
 
 ## 4 - Qualité de service et Securité
