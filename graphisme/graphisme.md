@@ -2,15 +2,13 @@
 
 # Graphisme
 ## Arborescence
-<p align="center">
-  <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/arbo.png" alt="arborescence"/>
-</p>
+
+![arborescence](../img/arbo.png)
+
 
 ## Charte graphique
 
-<p align="center">
-  <img src="https://github.com/MyCalendApp/Wiki/blob/master/img/charte.png" alt="charte graphique"/>
-</p>
+![charte graphique](../img/charte.png)
 
 ## Pages disponible : 
 - [Maquette](./maquette.md)
