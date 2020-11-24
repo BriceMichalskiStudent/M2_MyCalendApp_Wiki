@@ -13,9 +13,6 @@
 - [User account](#9---user-account)
 
 
-
-
-
 ## 1 - Login
 
 ### Description
