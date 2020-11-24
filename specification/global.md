@@ -70,4 +70,5 @@ Les autorisations se feront via un JWT et la connexion se fera via un mot de pas
 La livraison en production se fera automatiquement lors du merge dans master selon le GitFlow Workflow.
 Elle peut également être effectuée à la demande par l'équipe de développement. 
 
-L'application sera accessible sur [https://mycalendapp.herokuapp.com/](https://mycalendapp.herokuapp.com/)
+L'application backend sera accessible sur [https://mycalendapp.herokuapp.com/](https://mycalendapp.herokuapp.com/)
+L'application frontend sera accessible sur [https://my-calend-app.netlify.app](https://my-calend-app.netlify.app)
