@@ -1,8 +1,10 @@
 [MyCalendApp](./README.md)
 
-# Bienvenue sur le wiki MyCalendApp !
+# Bienvenue sur le [wiki MyCalendApp](https://mycalendapp.github.io/Wiki/) !
 
-> [https://mycalendapp.herokuapp.com/profile](https://mycalendapp.herokuapp.com/profile)
+> [https://mycalendapp.herokuapp.com](https://mycalendapp.herokuapp.com)
+> [https://api-mycalendapp.herokuapp.com/](https://api-mycalendapp.herokuapp.com/)
+
 
 ## Introduction
 
@@ -12,6 +14,12 @@ Cet application permettra aux utilisateurs de cree des événements et de les pa
 Les utilisateurs pourront cree des évènements public ou privé. 
 L'application possède un certain nombre de fonctionalite : commentaires, inscription avec gestion de la liste de participants et un partage de photos ou videos sur les événements passés.
 
+
+## Status
+
+|          |      Backend      |  Frontend |
+|----------|:-------------:|:------:|
+|PROD|[![Website Prod](https://img.shields.io/website-up-down-green-red/http/api-mycalendapp.herokuapp.com/ping)](https://api-mycalendapp.herokuapp.com/ping)|[![Website Prod](https://img.shields.io/website-up-down-green-red/http/mycalendapp.herokuapp.com/)](https://mycalendapp.herokuapp.com)|
 
 
 ## Sommaire :
@@ -28,17 +36,10 @@ L'application possède un certain nombre de fonctionalite : commentaires, inscri
 - [Graphisme](./graphisme/graphisme.md)
     - [Maquette](./graphisme/maquette.md)
 
-## Status
-
-|          |      Backend      |  Frontend |
-|----------|:-------------:|:------:|
-|PROD|![Website Prod](https://img.shields.io/website-up-down-green-red/http/api-mycalendapp.herokuapp.com/ping)||
-|DEV|![Website Dev](https://img.shields.io/website-up-down-green-red/http/dev-api-mycalendapp.herokuapp.com/ping)||
 
 ## Intégration continue
 
-
 |          |      Backend      |  Frontend |
 |----------|:-------------:|:------:|
-| develop |  [![GitHub Super-Linter](https://github.com/MyCalendApp/backend/workflows/Continuous%20Integration/badge.svg?branch=develop)](https://dev-api-mycalendapp.herokuapp.com/ping) | ?? |
-| master |   [![GitHub Super-Linter](https://github.com/MyCalendApp/backend/workflows/Continuous%20Integration/badge.svg?branch=master)](https://api-mycalendapp.herokuapp.com/ping)    | ?? |
+| develop | ![GitHub Super-Linter](https://github.com/MyCalendApp/backend/workflows/Continuous%20Integration/badge.svg?branch=develop)| ![GitHub Super-Linter](https://github.com/MyCalendApp/frontend/workflows/Continuous%20Integration/badge.svg?branch=develop) |
+| master | ![GitHub Super-Linter](https://github.com/MyCalendApp/backend/workflows/Continuous%20Integration/badge.svg?branch=master)| ![GitHub Super-Linter](https://github.com/MyCalendApp/frontend/workflows/Continuous%20Integration/badge.svg?branch=master) |
