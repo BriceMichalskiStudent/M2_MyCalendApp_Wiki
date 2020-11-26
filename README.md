@@ -3,7 +3,7 @@
 # Bienvenue sur le [wiki MyCalendApp](https://mycalendapp.github.io/Wiki/) !
 
 > [https://mycalendapp.herokuapp.com](https://mycalendapp.herokuapp.com)  
-> [https://api-mycalendapp.herokuapp.com/](https://api-mycalendapp.herokuapp.com/)
+> [https://api-mycalendapp.herokuapp.com](https://api-mycalendapp.herokuapp.com)
 
 
 ## Introduction
