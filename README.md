@@ -4,7 +4,7 @@
 
 > [https://mycalendapp.herokuapp.com](https://mycalendapp.herokuapp.com)  
 > [https://api-mycalendapp.herokuapp.com](https://api-mycalendapp.herokuapp.com)  
-> [https://dev-api-mycalendapp.herokuapp.com/](https://dev-api-mycalendapp.herokuapp.com/)
+> [https://dev-api-mycalendapp.herokuapp.com](https://dev-api-mycalendapp.herokuapp.com)
 
 
 ## Introduction
